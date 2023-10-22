@@ -1,0 +1,21 @@
+{
+  "name": "cs471-s23-team8",
+  "version": "1.0.0",
+  "description": "(Program a Discord Bot to Play Music)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.1",
+    "@discordjs/voice": "^0.16.0",
+    "discord-api-types": "^0.37.35",
+    "discord-player": "^5.4.0",
+    "discord.js": "^14.9.0",
+    "discordjs": "file:../../../builders",
+    "dotenv": "^16.0.3",
+    "ytdl-core": "^4.11.3"
+  }
+}
